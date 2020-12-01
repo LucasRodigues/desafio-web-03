@@ -4,4 +4,113 @@
     text-decoration: none;
 }
 
-/* Seu código css aqui */
+body {
+    background: #0f0f0f;
+}
+
+header {
+    background: #181818;
+    margin-bottom: 40px;
+    padding: 24px;
+}
+
+.conteudo {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+}
+
+.espaco {
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 16px;
+}
+
+.espaco h1 {
+    font: 24px 'Roboto', sans-serif;
+    color: #fff;    
+}
+
+.icone {
+height: 18px;
+width: 18px;
+margin-left: 8px;
+}
+
+
+.espaco span {
+    font: 14px 'Roboto', sans-serif;
+    color: #aaa; 
+    display: block;
+    margin-top: 8px;      
+}
+
+.espaco .botao-membro {
+color: #3ea6ff;
+border: 1px solid #3ea6ff;
+border-radius: 4px;
+font: 14px 'Roboto', sans-serif;
+text-transform: uppercase;
+margin-right: 16px;
+padding: 8px 16px;
+}
+
+.espaco .botao-inscrever {
+    color: #fff;
+    background: #cc0000;    
+    border-radius: 4px;
+    font: 14px 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 8px 16px;        
+}
+
+nav a {
+    color: #fff;
+    font: 14px 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+.destaque iframe {
+    margin-right: 16px;
+}
+
+.destaque .info h2 {
+font: 14px 'Roboto', sans-serif;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.destaque .info span {
+    display: block;
+    font: 13px 'Roboto', sans-serif;
+    color: #aaa;
+    margin-bottom: 16px;  
+}
+
+.destaque .info p {
+    font: 14px/24px 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 16px;      
+}
+
+.destaque .info a {
+    font: 13px 'Roboto', sans-serif;
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.destaque .info a:hover {
+    color: #fff;
+}
+
